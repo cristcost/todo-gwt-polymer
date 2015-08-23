@@ -9,10 +9,6 @@ public class Polymer {
         $doc.registerElement(componentType.is, ctor);
     }-*/;
 
-    static public native Component create(ComponentType componentType) /*-{
-        return $doc.createElement(componentType.is);
-    }-*/;
-
     static public native Component.DOM dom(Element element) /*-{
         return $wnd.Polymer.dom(element);
     }-*/;
