@@ -1,5 +1,5 @@
-# GWT JSInterop & Polymer TODO
+# GWT JSInterop & Polymer TODO - Maven
 
-* Run `./gradlew gwtSuperDev` and start some webserver (e.g. in IDE) and serve `index.html` on localhost
+* Not yet working! 
 
-* NOTE: Currently this code only works in SDM, not with final GWT compilation!
+* When it will work, run "mvn clean install jetty:run" to start embedded jetty server and then open browser at http://localhost:8888
