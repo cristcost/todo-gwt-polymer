@@ -9,3 +9,15 @@
 .gradle/
 build/
 bin/
+
+# Eclipse 
+.settings/
+.checkstyle
+.classpath
+.pmd
+.pmdruleset
+.pmdruleset.xml
+.project
+
+# Maven 
+target/
