@@ -56,6 +56,11 @@
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.2.11.v20150529</version>
 				<configuration>
+					<webApp>
+						<baseResource implementation="org.eclipse.jetty.util.resource.ResourceCollection">
+							<resourcesAsCSV>${webappDirectory}</resourcesAsCSV>
+						</baseResource>
+					</webApp>
 					<httpConnector>
 						<port>8888</port>
 					</httpConnector>
